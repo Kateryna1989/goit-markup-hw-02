@@ -4,20 +4,27 @@
 .contacts:focus {
   color: #2196f3;
 }
-*/
+
+/* to delete all markers */
+.list {
+  list-style: none;
+}
 
 /* based color #212121*/
+body {
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+}
 /*other color background: #757575;/
 /*blue background: #2196F3;/
 /*  */
 
-.list {
-  list-style: none;
-}
 .site-button {
   color: #212121;
 }
 
+.logo:hover {
+}
 /* Site nav */
 .site-nav .link {
   color: #212121;
@@ -26,4 +33,15 @@
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
+}
+
+.project-description {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  /* line-height in mnojinnik */
+  letter-spacing: 0.03em;
+  text-align: left;
 }
